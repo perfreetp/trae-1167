@@ -1,120 +1,163 @@
 [
   {
-    "time": "2026-06-08T04:04:52.975Z",
+    "time": "2026-06-08T04:18:26.837Z",
     "action": "init",
     "detail": "初始化项目: 测试工厂 - 模具部"
   },
   {
-    "time": "2026-06-08T04:04:53.366Z",
+    "time": "2026-06-08T04:18:27.090Z",
     "action": "import",
     "detail": "导入建档: test-molds.csv, 编号: MJ-001",
     "moldCode": "MJ-001"
   },
   {
-    "time": "2026-06-08T04:04:53.366Z",
+    "time": "2026-06-08T04:18:27.091Z",
     "action": "import",
     "detail": "导入建档: test-molds.csv, 编号: MJ-002",
     "moldCode": "MJ-002"
   },
   {
-    "time": "2026-06-08T04:04:53.379Z",
+    "time": "2026-06-08T04:18:27.101Z",
     "action": "import",
     "detail": "导入建档: test-molds.csv, 编号: MJ-003",
     "moldCode": "MJ-003"
   },
   {
-    "time": "2026-06-08T04:04:53.391Z",
+    "time": "2026-06-08T04:18:27.111Z",
     "action": "import",
     "detail": "导入建档: test-molds.csv, 编号: MJ-004",
     "moldCode": "MJ-004"
   },
   {
-    "time": "2026-06-08T04:04:53.402Z",
+    "time": "2026-06-08T04:18:27.123Z",
     "action": "import",
     "detail": "导入建档: test-molds.csv, 编号: MJ-005",
     "moldCode": "MJ-005"
   },
   {
-    "time": "2026-06-08T04:05:43.966Z",
-    "action": "out",
-    "detail": "模具 MJ-001 出库, 领用人: 李工, 模次+5000, 预计归还: 2026-06-20",
-    "moldCode": "MJ-001"
-  },
-  {
-    "time": "2026-06-08T04:05:44.234Z",
-    "action": "in",
-    "detail": "模具 MJ-001 入库 (原状态: out_stock), 归还单号: MMQ4OUDUKHA7",
-    "moldCode": "MJ-001"
-  },
-  {
-    "time": "2026-06-08T04:05:44.496Z",
+    "time": "2026-06-08T04:18:38.631Z",
     "action": "repair",
     "detail": "模具 MJ-002 报修: 顶针断裂, 停机8h, 费用¥2500",
     "moldCode": "MJ-002"
   },
   {
-    "time": "2026-06-08T04:05:44.754Z",
-    "action": "move",
-    "detail": "模具 MJ-003 库位变更: B区-01 → C区-05",
+    "time": "2026-06-08T04:18:38.920Z",
+    "action": "repair",
+    "detail": "模具 MJ-004 报修: 导柱磨损, 停机4h, 费用¥1800",
+    "moldCode": "MJ-004"
+  },
+  {
+    "time": "2026-06-08T04:18:39.208Z",
+    "action": "out",
+    "detail": "模具 MJ-001 出库, 领用人: 李工, 模次+3000",
+    "moldCode": "MJ-001"
+  },
+  {
+    "time": "2026-06-08T04:18:39.495Z",
+    "action": "in",
+    "detail": "模具 MJ-001 入库 (原状态: out_stock), 归还单号: MMQ4PB013QUF",
+    "moldCode": "MJ-001"
+  },
+  {
+    "time": "2026-06-08T04:18:39.806Z",
+    "action": "report:cost",
+    "detail": "查看成本效率报表"
+  },
+  {
+    "time": "2026-06-08T04:18:49.639Z",
+    "action": "detail",
+    "detail": "查看模具详情: MJ-003",
     "moldCode": "MJ-003"
   },
   {
-    "time": "2026-06-08T04:05:45.004Z",
+    "time": "2026-06-08T04:19:00.931Z",
+    "action": "tx:add",
+    "detail": "补录流转: MJ-003, 出库: 2025-12-01, 归还: 2025-12-15, 领用人: 陈工, 模次: 10000",
+    "moldCode": "MJ-003"
+  },
+  {
+    "time": "2026-06-08T04:19:01.228Z",
+    "action": "detail",
+    "detail": "查看模具详情: MJ-003",
+    "moldCode": "MJ-003"
+  },
+  {
+    "time": "2026-06-08T04:19:11.786Z",
+    "action": "out",
+    "detail": "模具 MJ-005 出库, 领用人: 赵工, 模次+5000",
+    "moldCode": "MJ-005"
+  },
+  {
+    "time": "2026-06-08T04:19:23.245Z",
+    "action": "tx:edit",
+    "detail": "更正流转单 MMQ4PBP61OLD: 归还日期:  → 2026-06-07, 状态: open → returned, 模具状态: out_stock → in_stock",
+    "moldCode": "MJ-005"
+  },
+  {
+    "time": "2026-06-08T04:19:34.652Z",
     "action": "scrap",
     "detail": "模具 MJ-004 报废, 原因: 寿命到期",
     "moldCode": "MJ-004"
   },
   {
-    "time": "2026-06-08T04:05:45.260Z",
-    "action": "print",
-    "detail": "打印标签: MJ-005",
-    "moldCode": "MJ-005"
+    "time": "2026-06-08T04:20:02.525Z",
+    "action": "check",
+    "detail": "数据校准检查: 通过"
   },
   {
-    "time": "2026-06-08T04:06:07.087Z",
-    "action": "tx:edit",
-    "detail": "更正流转单 MMQ4OUDUKHA7: 领用人: 李工 → 王工, 使用模次: 5000 → 3000",
-    "moldCode": "MJ-001"
+    "time": "2026-06-08T04:20:43.400Z",
+    "action": "check",
+    "detail": "数据校准检查: 发现1处不一致"
   },
   {
-    "time": "2026-06-08T04:06:30.835Z",
-    "action": "tx:add",
-    "detail": "补录流转: MJ-003, 出库: 2025-12-01, 归还: 2025-12-15, 领用人: 陈工",
+    "time": "2026-06-08T04:20:52.279Z",
+    "action": "check",
+    "detail": "校准修复: MJ-003 - 状态为出库但无未归还流转单",
     "moldCode": "MJ-003"
   },
   {
-    "time": "2026-06-08T04:07:20.393Z",
-    "action": "maintain:plan",
-    "detail": "生成保养计划 4 条"
+    "time": "2026-06-08T04:20:52.280Z",
+    "action": "check",
+    "detail": "数据校准检查: 发现1处不一致, 已修复"
   },
   {
-    "time": "2026-06-08T04:07:20.671Z",
-    "action": "warn",
-    "detail": "预警查看: 寿命0条, 保养逾期4条"
+    "time": "2026-06-08T04:21:02.302Z",
+    "action": "check",
+    "detail": "数据校准检查: 通过"
   },
   {
-    "time": "2026-06-08T04:07:29.393Z",
-    "action": "report:summary",
-    "detail": "查看综合概览"
+    "time": "2026-06-08T04:21:21.849Z",
+    "action": "import",
+    "detail": "导入建档: update-molds.csv, 编号: MJ-001",
+    "moldCode": "MJ-001"
   },
   {
-    "time": "2026-06-08T04:07:55.795Z",
+    "time": "2026-06-08T04:21:21.850Z",
+    "action": "import",
+    "detail": "导入建档: update-molds.csv, 编号: MJ-006",
+    "moldCode": "MJ-006"
+  },
+  {
+    "time": "2026-06-08T04:21:21.862Z",
+    "action": "import",
+    "detail": "导入更新: MJ-001 - name: 外壳模具A→外壳模具A-Pro, location: A区-01→A区-03, drawingNo: DWG-001→DWG-001-V2, price: 28000→32000",
+    "moldCode": "MJ-001"
+  },
+  {
+    "time": "2026-06-08T04:21:32.417Z",
+    "action": "import",
+    "detail": "导入建档: update-molds.csv, 编号: MJ-001",
+    "moldCode": "MJ-001"
+  },
+  {
+    "time": "2026-06-08T04:21:32.419Z",
+    "action": "import",
+    "detail": "导入建档: update-molds.csv, 编号: MJ-006",
+    "moldCode": "MJ-006"
+  },
+  {
+    "time": "2026-06-08T04:21:46.297Z",
     "action": "export",
-    "detail": "导出报表 report-flow 到 E:\\trae-bz\\TraeProjects\\1167\\test-workspace\\flow_all.csv"
-  },
-  {
-    "time": "2026-06-08T04:07:56.087Z",
-    "action": "export",
-    "detail": "导出报表 report-flow 到 E:\\trae-bz\\TraeProjects\\1167\\test-workspace\\flow_out.csv"
-  },
-  {
-    "time": "2026-06-08T04:08:31.975Z",
-    "action": "maintain:plan",
-    "detail": "生成保养计划 0 条"
-  },
-  {
-    "time": "2026-06-08T04:08:43.855Z",
-    "action": "export",
-    "detail": "导出报表 report-summary 到 E:\\trae-bz\\TraeProjects\\1167\\test-workspace\\summary_test.csv"
+    "detail": "导出报表 report-cost 到 E:\\trae-bz\\TraeProjects\\1167\\test-workspace\\cost.csv"
   }
 ]

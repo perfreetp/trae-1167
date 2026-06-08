@@ -1,30 +1,44 @@
 [
   {
-    "id": "MMQ4OUDUKHA7",
+    "id": "MMQ4PB013QUF",
     "moldCode": "MJ-001",
     "moldName": "外壳模具A",
-    "person": "王工",
+    "person": "李工",
     "outDate": "2026-06-08",
-    "expectedReturnDate": "2026-06-20",
+    "expectedReturnDate": "",
     "usageCount": 3000,
     "outRemark": "",
     "status": "returned",
     "returnDate": "2026-06-08",
     "returnRemark": "",
-    "createdAt": "2026-06-08T04:05:43.965Z"
+    "createdAt": "2026-06-08T04:18:39.208Z"
   },
   {
-    "id": "MMQ4OVE0HFZS",
+    "id": "MMQ4PBGSHL8L",
     "moldCode": "MJ-003",
     "moldName": "盖板模具C",
     "person": "陈工",
     "outDate": "2025-12-01",
     "expectedReturnDate": "",
-    "usageCount": 2000,
+    "usageCount": 10000,
     "outRemark": "历史补录",
     "status": "returned",
     "returnDate": "2025-12-15",
     "returnRemark": "",
-    "createdAt": "2026-06-08T04:06:30.833Z"
+    "createdAt": "2026-06-08T04:19:00.929Z"
+  },
+  {
+    "id": "MMQ4PBP61OLD",
+    "moldCode": "MJ-005",
+    "moldName": "支架模具E",
+    "person": "赵工",
+    "outDate": "2026-06-08",
+    "expectedReturnDate": "",
+    "usageCount": 5000,
+    "outRemark": "",
+    "status": "returned",
+    "returnDate": "2026-06-07",
+    "returnRemark": "",
+    "createdAt": "2026-06-08T04:19:11.785Z"
   }
 ]

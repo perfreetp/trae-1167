@@ -1,6 +1,6 @@
 [
   {
-    "id": "RPMQ4OUE9A",
+    "id": "RPMQ4PAZL1",
     "moldCode": "MJ-002",
     "fault": "顶针断裂",
     "downtime": 8,
@@ -8,6 +8,17 @@
     "person": "",
     "date": "2026-06-08",
     "remark": "",
-    "createdAt": "2026-06-08T04:05:44.495Z"
+    "createdAt": "2026-06-08T04:18:38.630Z"
+  },
+  {
+    "id": "RPMQ4PAZT1",
+    "moldCode": "MJ-004",
+    "fault": "导柱磨损",
+    "downtime": 4,
+    "cost": 1800,
+    "person": "",
+    "date": "2026-06-08",
+    "remark": "",
+    "createdAt": "2026-06-08T04:18:38.919Z"
   }
 ]
