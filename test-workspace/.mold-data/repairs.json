@@ -1,0 +1,13 @@
+[
+  {
+    "id": "RPMQ4MURXN",
+    "moldCode": "MJ-002",
+    "fault": "顶针断裂",
+    "downtime": 8,
+    "cost": 2500,
+    "person": "",
+    "date": "2026-06-08",
+    "remark": "",
+    "createdAt": "2026-06-08T03:10:02.988Z"
+  }
+]

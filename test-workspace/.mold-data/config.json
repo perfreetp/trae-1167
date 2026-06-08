@@ -1,0 +1,9 @@
+{
+  "company": "测试工厂",
+  "department": "模具部",
+  "manager": "张三",
+  "defaultLifespan": 100000,
+  "maintCycle": 30,
+  "createdAt": "2026-06-08T03:02:15.710Z",
+  "version": "1.0.0"
+}
