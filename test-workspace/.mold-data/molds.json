@@ -1,27 +1,27 @@
 [
   {
-    "id": "MMQ4MTJDH6GO",
+    "id": "MMQ4NRM6JX0D",
     "code": "MJ-001",
-    "name": "外壳模具A",
+    "name": "外壳模具A-Pro",
     "customer": "华为科技",
-    "location": "D区-05",
-    "status": "in_stock",
+    "location": "A区-03",
+    "status": "out_stock",
     "category": "注塑模",
     "lifespan": 100000,
     "usedCount": 50000,
     "drawingNo": "DWG-001",
     "purchaseDate": "2024-03-15",
-    "price": 28000,
+    "price": 32000,
     "lastMaintenance": "",
     "lastOutDate": "2026-06-08",
-    "lastOutPerson": "",
+    "lastOutPerson": "李工",
     "scrapReason": "",
     "scrapDate": "",
-    "createdAt": "2026-06-08T03:09:05.237Z",
-    "updatedAt": "2026-06-08T03:10:32.428Z"
+    "createdAt": "2026-06-08T03:35:35.179Z",
+    "updatedAt": "2026-06-08T03:36:10.625Z"
   },
   {
-    "id": "MMQ4MTJDIN39",
+    "id": "MMQ4NRM6KUAZ",
     "code": "MJ-002",
     "name": "内壳模具B",
     "customer": "华为科技",
@@ -38,11 +38,11 @@
     "lastOutPerson": "",
     "scrapReason": "",
     "scrapDate": "",
-    "createdAt": "2026-06-08T03:09:05.238Z",
-    "updatedAt": "2026-06-08T03:10:02.988Z"
+    "createdAt": "2026-06-08T03:35:35.180Z",
+    "updatedAt": "2026-06-08T03:36:10.942Z"
   },
   {
-    "id": "MMQ4MTJDIUPM",
+    "id": "MMQ4NRM6KRZ4",
     "code": "MJ-003",
     "name": "盖板模具C",
     "customer": "小米电子",
@@ -59,11 +59,11 @@
     "lastOutPerson": "",
     "scrapReason": "",
     "scrapDate": "",
-    "createdAt": "2026-06-08T03:09:05.238Z",
-    "updatedAt": "2026-06-08T03:09:05.238Z"
+    "createdAt": "2026-06-08T03:35:35.180Z",
+    "updatedAt": "2026-06-08T03:35:35.180Z"
   },
   {
-    "id": "MMQ4MTJDIIDS",
+    "id": "MMQ4NRM6KIEI",
     "code": "MJ-004",
     "name": "底座模具D",
     "customer": "小米电子",
@@ -78,18 +78,18 @@
     "lastMaintenance": "",
     "lastOutDate": "",
     "lastOutPerson": "",
-    "scrapReason": "寿命到期，无法修复",
+    "scrapReason": "寿命到期",
     "scrapDate": "2026-06-08",
-    "createdAt": "2026-06-08T03:09:05.238Z",
-    "updatedAt": "2026-06-08T03:10:16.922Z"
+    "createdAt": "2026-06-08T03:35:35.180Z",
+    "updatedAt": "2026-06-08T03:36:11.218Z"
   },
   {
-    "id": "MMQ4MTJDIDD2",
+    "id": "MMQ4NRM6K7Y7",
     "code": "MJ-005",
     "name": "支架模具E",
     "customer": "比亚迪",
     "location": "C区-01",
-    "status": "maintenance",
+    "status": "in_stock",
     "category": "注塑模",
     "lifespan": 90000,
     "usedCount": 88000,
@@ -101,7 +101,7 @@
     "lastOutPerson": "",
     "scrapReason": "",
     "scrapDate": "",
-    "createdAt": "2026-06-08T03:09:05.238Z",
-    "updatedAt": "2026-06-08T03:09:05.238Z"
+    "createdAt": "2026-06-08T03:35:35.180Z",
+    "updatedAt": "2026-06-08T03:35:35.180Z"
   }
 ]

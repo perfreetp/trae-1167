@@ -1,37 +1,73 @@
 [
   {
-    "time": "2026-06-08T03:02:15.713Z",
+    "time": "2026-06-08T03:35:34.884Z",
     "action": "init",
     "detail": "初始化项目: 测试工厂 - 模具部"
   },
   {
-    "time": "2026-06-08T03:09:05.239Z",
+    "time": "2026-06-08T03:35:35.181Z",
     "action": "import",
     "detail": "导入文件 test-molds.csv: 成功5条, 跳过0条"
   },
   {
-    "time": "2026-06-08T03:09:37.732Z",
+    "time": "2026-06-08T03:35:45.020Z",
+    "action": "edit",
+    "detail": "修改模具 MJ-001: 名称: 外壳模具A → 外壳模具A-Pro, 库位: A区-01 → A区-03, 采购价格: 28000 → 32000",
+    "moldCode": "MJ-001"
+  },
+  {
+    "time": "2026-06-08T03:35:58.027Z",
+    "action": "warn",
+    "detail": "预警查看: 寿命3条, 保养逾期5条"
+  },
+  {
+    "time": "2026-06-08T03:36:10.625Z",
     "action": "out",
-    "detail": "模具 MJ-001 出库, 领用人: 李工, 模次+5000"
+    "detail": "模具 MJ-001 出库, 领用人: 李工, 模次+5000",
+    "moldCode": "MJ-001"
   },
   {
-    "time": "2026-06-08T03:09:48.903Z",
-    "action": "in",
-    "detail": "模具 MJ-001 入库 (原状态: out_stock)"
-  },
-  {
-    "time": "2026-06-08T03:10:02.989Z",
+    "time": "2026-06-08T03:36:10.943Z",
     "action": "repair",
-    "detail": "模具 MJ-002 报修: 顶针断裂, 停机8h, 费用¥2500"
+    "detail": "模具 MJ-002 报修: 顶针断裂, 停机8h, 费用¥2500",
+    "moldCode": "MJ-002"
   },
   {
-    "time": "2026-06-08T03:10:16.923Z",
+    "time": "2026-06-08T03:36:11.218Z",
     "action": "scrap",
-    "detail": "模具 MJ-004 报废, 原因: 寿命到期，无法修复"
+    "detail": "模具 MJ-004 报废, 原因: 寿命到期",
+    "moldCode": "MJ-004"
   },
   {
-    "time": "2026-06-08T03:10:32.429Z",
-    "action": "move",
-    "detail": "模具 MJ-001 库位变更: A区-01 → D区-05"
+    "time": "2026-06-08T03:36:11.548Z",
+    "action": "report:summary",
+    "detail": "查看综合概览"
+  },
+  {
+    "time": "2026-06-08T03:36:35.657Z",
+    "action": "export",
+    "detail": "导出报表 report-summary 到 E:\\trae-bz\\TraeProjects\\1167\\test-workspace\\summary.csv"
+  },
+  {
+    "time": "2026-06-08T03:36:35.951Z",
+    "action": "export",
+    "detail": "导出报表 report-idle 到 E:\\trae-bz\\TraeProjects\\1167\\test-workspace\\idle.csv"
+  },
+  {
+    "time": "2026-06-08T03:36:59.897Z",
+    "action": "detail",
+    "detail": "查看模具详情: MJ-003",
+    "moldCode": "MJ-003"
+  },
+  {
+    "time": "2026-06-08T03:37:00.185Z",
+    "action": "search",
+    "detail": "搜索 \"华为\": 找到2条"
+  },
+  {
+    "time": "2026-06-08T03:37:00.451Z",
+    "action": "print",
+    "detail": "打印标签: MJ-005",
+    "moldCode": "MJ-005"
   }
 ]
