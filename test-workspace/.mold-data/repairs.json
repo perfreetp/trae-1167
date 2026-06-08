@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "id": "RPMQ4OUE9A",
+    "moldCode": "MJ-002",
+    "fault": "顶针断裂",
+    "downtime": 8,
+    "cost": 2500,
+    "person": "",
+    "date": "2026-06-08",
+    "remark": "",
+    "createdAt": "2026-06-08T04:05:44.495Z"
+  }
+]

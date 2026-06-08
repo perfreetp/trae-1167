@@ -1,58 +1,30 @@
 [
   {
-    "id": "MMQ4OBGBB3Q1",
-    "moldCode": "MJ-001",
-    "moldName": "外壳模具A",
-    "person": "李工",
-    "outDate": "2026-06-08",
-    "expectedReturnDate": "2026-06-20",
-    "usageCount": 5000,
-    "outRemark": "生产订单A",
-    "status": "returned",
-    "returnDate": "2026-06-08",
-    "returnRemark": "生产完毕归还",
-    "createdAt": "2026-06-08T03:51:00.696Z"
-  },
-  {
-    "id": "MMQ4OCAAXJ9U",
+    "id": "MMQ4OUDUKHA7",
     "moldCode": "MJ-001",
     "moldName": "外壳模具A",
     "person": "王工",
     "outDate": "2026-06-08",
-    "expectedReturnDate": "",
+    "expectedReturnDate": "2026-06-20",
     "usageCount": 3000,
     "outRemark": "",
     "status": "returned",
     "returnDate": "2026-06-08",
     "returnRemark": "",
-    "createdAt": "2026-06-08T03:51:39.562Z"
+    "createdAt": "2026-06-08T04:05:43.965Z"
   },
   {
-    "id": "MMQ4OCASLJUN",
-    "moldCode": "MJ-001",
-    "moldName": "外壳模具A",
-    "person": "赵工",
-    "outDate": "2026-06-08",
-    "expectedReturnDate": "2026-07-01",
-    "usageCount": 2000,
-    "outRemark": "",
-    "status": "open",
-    "returnDate": "",
-    "returnRemark": "",
-    "createdAt": "2026-06-08T03:51:40.198Z"
-  },
-  {
-    "id": "MMQ4OGAOH61W",
+    "id": "MMQ4OVE0HFZS",
     "moldCode": "MJ-003",
     "moldName": "盖板模具C",
     "person": "陈工",
-    "outDate": "2026-06-08",
-    "expectedReturnDate": "2026-06-05",
-    "usageCount": 1000,
-    "outRemark": "紧急订单",
+    "outDate": "2025-12-01",
+    "expectedReturnDate": "",
+    "usageCount": 2000,
+    "outRemark": "历史补录",
     "status": "returned",
-    "returnDate": "2026-06-10",
-    "returnRemark": "延迟归还",
-    "createdAt": "2026-06-08T03:54:46.673Z"
+    "returnDate": "2025-12-15",
+    "returnRemark": "",
+    "createdAt": "2026-06-08T04:06:30.833Z"
   }
 ]
