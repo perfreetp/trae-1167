@@ -1,0 +1,4 @@
+﻿id,moldCode,moldName,person,outDate,expectedReturnDate,usageCount,outRemark,status,returnDate,returnRemark,createdAt
+MMQ4OBGBB3Q1,MJ-001,外壳模具A,李工,2026-06-08,2026-06-20,5000,生产订单A,returned,2026-06-08,生产完毕归还,2026-06-08T03:51:00.696Z
+MMQ4OCAAXJ9U,MJ-001,外壳模具A,王工,2026-06-08,,3000,,returned,2026-06-08,,2026-06-08T03:51:39.562Z
+MMQ4OCASLJUN,MJ-001,外壳模具A,赵工,2026-06-08,2026-07-01,2000,,open,,,2026-06-08T03:51:40.198Z

@@ -1,6 +1,6 @@
 code,name,customer,location,status,category,lifespan,usedCount,drawingNo,purchaseDate,price
 MJ-001,外壳模具A,华为科技,A区-01,in_stock,注塑模,100000,45000,DWG-001,2024-03-15,28000
 MJ-002,内壳模具B,华为科技,A区-02,in_stock,注塑模,80000,72000,DWG-002,2023-06-20,35000
-MJ-003,盖板模具C,小米电子,B区-01,out_stock,冲压模,120000,30000,DWG-003,2024-01-10,18000
+MJ-003,盖板模具C,小米电子,B区-01,in_stock,冲压模,120000,30000,DWG-003,2024-01-10,18000
 MJ-004,底座模具D,小米电子,B区-02,in_stock,压铸模,60000,55000,DWG-004,2022-11-05,42000
 MJ-005,支架模具E,比亚迪,C区-01,in_stock,注塑模,90000,88000,DWG-005,2023-08-22,22000

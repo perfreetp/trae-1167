@@ -1,1 +1,57 @@
-[]
+[
+  {
+    "id": "MTMQ4OCQSE630",
+    "moldCode": "MJ-001",
+    "moldName": "外壳模具A",
+    "planDate": "2024-04-14",
+    "type": "定期保养",
+    "status": "overdue",
+    "remark": "",
+    "completedDate": "",
+    "createdAt": "2026-06-08T03:52:00.926Z"
+  },
+  {
+    "id": "MTMQ4OCQSECYF",
+    "moldCode": "MJ-002",
+    "moldName": "内壳模具B",
+    "planDate": "2023-07-20",
+    "type": "定期保养",
+    "status": "overdue",
+    "remark": "",
+    "completedDate": "",
+    "createdAt": "2026-06-08T03:52:00.926Z"
+  },
+  {
+    "id": "MTMQ4OCQSF8SB",
+    "moldCode": "MJ-003",
+    "moldName": "盖板模具C",
+    "planDate": "2024-02-09",
+    "type": "定期保养",
+    "status": "overdue",
+    "remark": "",
+    "completedDate": "",
+    "createdAt": "2026-06-08T03:52:00.927Z"
+  },
+  {
+    "id": "MTMQ4OCQSF42M",
+    "moldCode": "MJ-004",
+    "moldName": "底座模具D",
+    "planDate": "2022-12-05",
+    "type": "定期保养",
+    "status": "overdue",
+    "remark": "",
+    "completedDate": "",
+    "createdAt": "2026-06-08T03:52:00.927Z"
+  },
+  {
+    "id": "MTMQ4OCQSFC6X",
+    "moldCode": "MJ-005",
+    "moldName": "支架模具E",
+    "planDate": "2023-09-21",
+    "type": "定期保养",
+    "status": "overdue",
+    "remark": "",
+    "completedDate": "",
+    "createdAt": "2026-06-08T03:52:00.927Z"
+  }
+]
